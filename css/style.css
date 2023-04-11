@@ -21,7 +21,7 @@
 * {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  font-weight: var(--light);
+  font-weight: var(--regular);
   scroll-behavior: smooth;
   background-color: var(--primary_color);
   -webkit-user-select: none;
@@ -29,4 +29,126 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__nav {
+  height: 95px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 105px;
+}
+
+.header__lang,
+.header__theme {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header__lang a,
+.header__theme a {
+  font-size: clamp(0.5rem, 4vw, 1.5rem);
+  font-weight: var(--medium);
+  text-decoration: none;
+  color: var(--text_color);
+}
+
+.header__title {
+  font-size: clamp(3rem, 4vw, 6rem);
+  text-align: center;
+}
+
+.header__subtitle-h2 {
+  font-size: clamp(1rem, 4vw, 3rem);
+  text-align: center;
+}
+
+.header__subtitle-p {
+  font-size: clamp(0.5rem, 4vw, 1.5rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 117px;
+  /* margin-bottom: 80px; */
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.about__title,
+.about__subtitle {
+  margin: 0 auto;
+  width: 1290px;
+  font-size: clamp(1.25rem, 4vw, 2.25rem);
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+
+.about__rovsh-wrapper,
+.about__raha-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about__rovsh,
+.about__raha {
+  display: flex;
+  flex-direction: row;
+}
+
+.about__rovsh-texts,
+.about__raha-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__rovsh-social,
+.about__raha-social {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+.about__rovsh-texts {
+  text-align: right;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.about__rovsh-texts h3,
+.about__raha-texts h3 {
+  font-size: 32px;
+  font-weight: 600;
+  /* line-height: 39px; */
+}
+
+.about__raha-texts {
+  text-align: left;
+  margin-left: 15px;
 }
