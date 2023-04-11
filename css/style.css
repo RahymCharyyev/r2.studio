@@ -1,0 +1,32 @@
+:root {
+  /* COLOR VARIABLES */
+  --primary_color: #fffefb;
+  --text_color: #000;
+  --extra-light: 200;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.ttf");
+  font-display: swap;
+}
+
+/* DEFAULT STYLES */
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--light);
+  scroll-behavior: smooth;
+  background-color: var(--primary_color);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
