@@ -22,9 +22,9 @@
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/RahymCharyyev/WPL?color=56BEB8" /> -->
 
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/RahymCharyyev/WPL?color=56BEB8" /> -->
-<!-- </p> --> -->
+<!-- </p> -->
 
-Status
+<h2 align="center" id="top">Status</h2>
 
 <h4 align="center">
 	🚧  R2.studio 🚀 Under construction...  🚧
