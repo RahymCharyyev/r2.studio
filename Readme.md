@@ -24,8 +24,6 @@
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/RahymCharyyev/WPL?color=56BEB8" /> -->
 <!-- </p> -->
 
-<h2 align="center" id="top">Status</h2>
-
 <h4 align="center">
 	🚧  R2.studio 🚀 Under construction...  🚧
 </h4>
